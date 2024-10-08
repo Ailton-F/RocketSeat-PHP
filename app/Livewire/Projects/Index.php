@@ -13,6 +13,6 @@ class Index extends Component
     }
 
     public function projects(){
-        return Projects::where('status', '=', 'open')->get();
+        return Projects::all();
     }
 }
