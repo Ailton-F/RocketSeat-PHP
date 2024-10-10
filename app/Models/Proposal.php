@@ -9,4 +9,8 @@ class Proposal extends Model
 {
     /** @use HasFactory<\Database\Factories\ProposalFactory> */
     use HasFactory;
+    public $fillable = [
+        'email',
+        'hours'
+    ];
 }
